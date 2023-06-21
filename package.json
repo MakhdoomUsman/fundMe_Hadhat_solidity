@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-fund-me",
+  "auther": "Usman dev",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.1",
+    "@nomicfoundation/hardhat-ethers": "^3.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "ethers": "^6.6.0",
+    "hardhat": "^2.15.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "dotenv": "^16.3.1",
+    "hardhat-deploy": "^0.11.31",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npm hardhat test --network Sepolia",
+    "coverage": "npx hardhat coverage"
+  }
+}
